@@ -1,0 +1,32 @@
+﻿<Window x:Class="LaunchBoxPasteImage.SubMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LaunchBoxPasteImage"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner" Title="Select Image Type" SizeToContent="WidthAndHeight" Loaded="Window_Loaded" WindowStyle="ToolWindow" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" Background="{x:Null}" ResizeMode="NoResize" Topmost="True" Width="199" Height="176">
+    <ListBox HorizontalContentAlignment="Stretch" BorderThickness="2" BorderBrush="#FFC0C5C7" Background="White" Foreground="{x:Null}" FontSize="18" HorizontalAlignment="Stretch" Height="Auto" Width="Auto">
+        <ListBox.ItemContainerStyle>
+            <Style TargetType="ListBoxItem">
+                <Setter Property="Height" Value="40"></Setter>
+
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#FFC7C7C7"></Setter>
+                        <Setter Property="BorderBrush" Value="#FF8CE0F9"></Setter>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ListBox.ItemContainerStyle>
+        <ListBoxItem HorizontalContentAlignment="Center" Name="BoxFront" Selected="Button_Click" Background="{x:Null}" Foreground="Black" Margin="4,4,4,4" BorderBrush="#FFBDBDBD">
+            Box - Front
+        </ListBoxItem>
+        <ListBoxItem HorizontalContentAlignment="Center" Name="BoxBack" Selected="Button_Click" Background="{x:Null}" Foreground="Black" Margin="4,4,4,4" BorderBrush="#FFBDBDBD">
+            Box - Back
+        </ListBoxItem>
+        <ListBoxItem HorizontalContentAlignment="Center" Name="Cancel" Selected="Button_Click" Background="White"  Foreground="Black" BorderBrush="#FFF04E4E" Margin="4,12,4,4" VerticalAlignment="Bottom">
+            Cancel
+        </ListBoxItem>
+    </ListBox>
+</Window>
