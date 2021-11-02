@@ -16,7 +16,7 @@ Simply opens a web browser window to google image search with the game platform 
 
 > Paste Image
 
-Save an image in the system clipboard to the game's platform images folder. The user is prompted to select what type of LaunchBox image should be saved.
+Save an image in the system clipboard (e.g. from right-click browser image > Copy Image) to the game's platform images folder. The user is prompted to select what type of LaunchBox image should be saved.
 
 ## Settings
 In the LaunchBox Tools menu "Paste Image Settings" has been added which will open a tool window where options affecting the way "Paste Image" behaves can be changed.
@@ -46,7 +46,8 @@ The process of manually searching and then opening the game edit window and addi
 
 ## TODO:
 
-1. Add more Image Types
-2. Allow region selection
+1. Handle copied image file
+2. Add more Image Types
+3. Allow region selection
 
 Icons made by [Pixelmeetup](https://www.flaticon.com/authors/pixelmeetup) from [www.flaticon.com](www.flaticon.com) are used in this project.
