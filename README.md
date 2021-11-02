@@ -49,3 +49,4 @@ The process of manually searching and then opening the game edit window and addi
 1. Add more Image Types
 2. Allow region selection
 
+Icons made by [Pixelmeetup](https://www.flaticon.com/authors/pixelmeetup) from [www.flaticon.com](www.flaticon.com) are used in this project.
